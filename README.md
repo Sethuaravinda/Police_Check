@@ -6,6 +6,8 @@ SecureCheck: Real-Time Monitoring of Police Check Post Data
 <br>
 
 🧠 Objective
+<br>
+
 The goal of SecureCheck is to build a real-time, interactive dashboard that helps law enforcement agencies analyze traffic stop data, monitor violations, evaluate officer performance, and identify patterns in arrests, searches, and drug-related incidents.
 <br>
 
@@ -21,6 +23,7 @@ The goal of SecureCheck is to build a real-time, interactive dashboard that help
 | Backend Driver   | psycopg2           |
 | Code Editor      | Visual Studio Code |
 <br>
+<br>
 
 
 📂 Dataset
@@ -29,6 +32,8 @@ Source: traffic_stops_with_vehicle_number.csv (cleaned and processed)
 Size: ~4000+ rows (depending on state data)
 
 Columns: stop time, stop date, violation, outcome, search, arrest, vehicle number, driver info, etc.
+<br>
+<br>
 <br>
 
 ⚙️ Implementation Details
