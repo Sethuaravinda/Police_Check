@@ -1,14 +1,16 @@
 
 🔰 Project Title
+<br>
 SecureCheck: Real-Time Monitoring of Police Check Post Data
 
 <br>
 
-
 🧠 Objective
 The goal of SecureCheck is to build a real-time, interactive dashboard that helps law enforcement agencies analyze traffic stop data, monitor violations, evaluate officer performance, and identify patterns in arrests, searches, and drug-related incidents.
+<br>
 
 📊 Tools & Technologies Used
+<br>
 
 | Component        | Technology         |
 | ---------------- | ------------------ |
@@ -18,6 +20,7 @@ The goal of SecureCheck is to build a real-time, interactive dashboard that help
 | Charts & Visuals | Plotly Express     |
 | Backend Driver   | psycopg2           |
 | Code Editor      | Visual Studio Code |
+<br>
 
 
 📂 Dataset
@@ -26,6 +29,7 @@ Source: traffic_stops_with_vehicle_number.csv (cleaned and processed)
 Size: ~4000+ rows (depending on state data)
 
 Columns: stop time, stop date, violation, outcome, search, arrest, vehicle number, driver info, etc.
+<br>
 
 ⚙️ Implementation Details
 🔹 1. Data Cleaning
@@ -36,6 +40,7 @@ Filled missing values (e.g., search_type, driver_age)
 Standardized time and date fields
 
 Converted stop_duration into minutes for analysis
+<br>
 
 🔹 2. Database Insertion
 Created a PostgreSQL database secure_check
@@ -43,6 +48,7 @@ Created a PostgreSQL database secure_check
 Imported cleaned data into a table traffic_stops
 
 Used SQLAlchemy and pandas.to_sql() for insertion
+<br>
 
 🔹 3. Dashboard Features
 Key Metrics: Total stops, arrests, warnings, drug-related
@@ -56,6 +62,7 @@ Officer Reports: Summary based on outcomes and arrest activity
 Advanced Insights: 15+ SQL-powered queries for deep data trends
 
 Natural Language Summary: Converts selected stop data into a human-readable sentence
+<br>
 
 🔹 4. Complex SQL Queries Included
 Violation trends by age, race, gender
@@ -67,9 +74,11 @@ Time of day/year/month patterns
 Rare arrest/search violations
 
 High-drug-stop locations
+<br>
 
 💡 Sample Use Case
 A traffic supervisor can use SecureCheck to view all stops involving Speeding, identify vehicles with frequent drug-related stops, or analyze arrest patterns by country and violation. It also helps generate officer summary reports in natural language.
+<br>
 
 📈 Outcome
 Highly interactive, real-time analytics dashboard
@@ -79,6 +88,8 @@ Intuitive UI for non-technical users
 Fully database-driven for scalable performance
 
 Extensible for officer assignment, location tracking, or AI insights
+<br>
+<br>
 
 📌 Conclusion
 SecureCheck offers a modern, data-powered solution for traffic enforcement analysis. It transforms raw stop data into actionable insights for safety and accountability. With its modular design, it can easily integrate with live law enforcement systems or be deployed as a public-facing transparency tool.
