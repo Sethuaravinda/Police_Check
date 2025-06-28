@@ -86,11 +86,15 @@ High-drug-stop locations
 <br>
 
 💡 Sample Use Case
+<br>
+
 A traffic supervisor can use SecureCheck to view all stops involving Speeding, identify vehicles with frequent drug-related stops, or analyze arrest patterns by country and violation. It also helps generate officer summary reports in natural language.
 <br>
 <br>
 
 📈 Outcome
+<br>
+
 Highly interactive, real-time analytics dashboard
 
 Intuitive UI for non-technical users
@@ -102,6 +106,8 @@ Extensible for officer assignment, location tracking, or AI insights
 <br>
 
 📌 Conclusion
+<br>
+
 SecureCheck offers a modern, data-powered solution for traffic enforcement analysis. It transforms raw stop data into actionable insights for safety and accountability. With its modular design, it can easily integrate with live law enforcement systems or be deployed as a public-facing transparency tool.
 
 
