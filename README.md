@@ -27,11 +27,12 @@ The goal of SecureCheck is to build a real-time, interactive dashboard that help
 <br>
 
 
-📂 Dataset Source: [traffic_stops_with_vehicle_number.csv](./traffic_stops_with_vehicle_number.csv) (cleaned and processed)
+📂 Dataset Source: [traffic_stops_with_vehicle_number.csv (Google Sheets)](https://docs.google.com/spreadsheets/d/16qEUKckLFy7j1qoSd1bSQURn9QXDb6ffSBAWzRkPsSg/edit?gid=1282651194#gid=1282651194) (cleaned and processed)
 
 Size: ~4000+ rows (depending on state data)
 
 Columns: stop time, stop date, violation, outcome, search, arrest, vehicle number, driver info, etc.
+
 
 <br>
 <br>
