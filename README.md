@@ -10,6 +10,7 @@ SecureCheck: Real-Time Monitoring of Police Check Post Data
 
 The goal of SecureCheck is to build a real-time, interactive dashboard that helps law enforcement agencies analyze traffic stop data, monitor violations, evaluate officer performance, and identify patterns in arrests, searches, and drug-related incidents.
 <br>
+<br>
 
 📊 Tools & Technologies Used
 <br>
@@ -37,6 +38,8 @@ Columns: stop time, stop date, violation, outcome, search, arrest, vehicle numbe
 <br>
 
 ⚙️ Implementation Details
+<br>
+
 🔹 1. Data Cleaning
 Removed null-heavy columns
 
@@ -80,9 +83,11 @@ Rare arrest/search violations
 
 High-drug-stop locations
 <br>
+<br>
 
 💡 Sample Use Case
 A traffic supervisor can use SecureCheck to view all stops involving Speeding, identify vehicles with frequent drug-related stops, or analyze arrest patterns by country and violation. It also helps generate officer summary reports in natural language.
+<br>
 <br>
 
 📈 Outcome
