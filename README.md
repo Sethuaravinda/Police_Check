@@ -34,7 +34,7 @@ Size: ~4000+ rows (depending on state data)
 Columns: stop time, stop date, violation, outcome, search, arrest, vehicle number, driver info, etc.
 
 
-<br>
+
 <br>
 <br>
 
